@@ -4,19 +4,6 @@ import numpy as np
 import os
 #import open3d as o3d
 matDir = '/home/ndprra/TI_ws/ti_ouster/bhpcd'
-"""for i in os.listdir(matDir):
-    if i.endswith('.mat'):
-        p = loadmat(os.path.join(matDir,i))
-    #print(len(p['y']))
-
-        pcd = o3d.geometry.PointCloud()
-        pcd.points = o3d.utility.Vector3dVector(p['y'][:,:3])
-        o3d.io.write_point_cloud(os.path.join(matDir,i.split('.')[0]+'.pcd'), pcd)
-        print(pcd)"""
-
-    #o3d.visualization.draw_geometries([pcd])
-
-
 
 import copy
 import numpy
